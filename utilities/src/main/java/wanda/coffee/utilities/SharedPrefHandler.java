@@ -1,7 +1,6 @@
 package wanda.coffee.utilities;
 // Created by jsonjuliane on 12/1/2016.
 
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
