@@ -42,11 +42,13 @@ dependencies {
     compile files('libs/lombok.jar')
 
     compile 'com.intuit.sdp:sdp-android:1.0.3'
+    compile 'com.jakewharton:butterknife:8.4.0'
     compile 'uk.co.chrisjenx:calligraphy:2.2.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.mikhaellopez:circularimageview:3.0.2'
-    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 
 }
